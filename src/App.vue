@@ -7,7 +7,7 @@ const user = ref(null);
 
 async function sendDataToBackend() {
   try {
-    const response = await axios.post("https://ac46-213-230-120-88.ngrok-free.app", {
+    const response = await axios.post("https://ac46-213-230-120-88.ngrok-free.app/auth/telegram/data", {
       user: user.value, // user?.value o‘rniga user.value
       message: "Salom, backend!",
     });
