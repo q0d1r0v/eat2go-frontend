@@ -14,7 +14,7 @@ const debug = ref({
 });
 
 // Backend API URL
-const API_URL = "https://5da0-213-230-120-88.ngrok-free.app/auth/telegram/data";
+const API_URL = "https://7349-213-230-120-88.ngrok-free.app/auth/telegram/data";
 
 async function sendDataToBackend() {
   try {
