@@ -24,7 +24,7 @@ async function sendDataToBackend() {
 
     const response = await axios.post(API_URL, {
       user: user.value,
-      message: "Salom, backend!",
+      message: "hello, from mini app!",
     });
 
     console.log("Server javobi:", response.data);
